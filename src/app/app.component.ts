@@ -60,8 +60,6 @@ export class AppComponent implements AfterViewInit {
       case 'ArrowRight': this.camera.position.x += step; break;
       case 'ArrowUp': this.camera.position.y += step; break; 
       case 'ArrowDown': this.camera.position.y -= step; break; 
-      case 'PageUp': this.camera.position.z += step; break;
-      case 'PageDown': this.camera.position.z -= step; break; 
 
       case 'w': this.rotateCamera('x', -rotStep); break; 
       case 's': this.rotateCamera('x', rotStep); break; 
