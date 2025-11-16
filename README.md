@@ -6,6 +6,6 @@ Custom 3D Pipeline: Logic for 3D point transformation, projection, and rendering
 
 Matrix Algebra: Utilizes custom Matrix4x4 class for rotation (X, Y, Z axes) and combining transformation matrices.
 
-Real-time Controls: Interactive keyboard controls allow the user to translate (PgUp/PgDn, Arrows), rotate (W, S, A, D, Q, E), and zoom (Z, X) the camera in real-time.
+Real-time Controls: Interactive keyboard controls allow the user to translate (Arrows), rotate (W, S, A, D, Q, E), and zoom (Z, X) the camera in real-time.
 
 Scene: Renders a simple scene consisting of two rows of buildings and a detailed ground grid, set up for a top-down view.
